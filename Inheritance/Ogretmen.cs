@@ -11,7 +11,7 @@ namespace Inheritance
         public decimal Maas { get; set; }
 
         //Ogretmenin bilgilerini tanımlayacak metot tanımlanıyor.
-    public void OgretmenGoster()
+    public override void Person()
         {
             Console.WriteLine($" Ogretmenin Adı: {Ad}" +
                               $"\n Ogretmenin Soyadı: {Soyad}" +

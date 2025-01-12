@@ -18,6 +18,6 @@ ogretmen.Maas = 40000;
 
 //Ogrenci ve Ogretmen bilgilerini görmek için metodu çağırıyoruz.
 
-ogrenci.OgrenciGoster();
+ogrenci.Person();
 
-ogretmen.OgretmenGoster();
+ogretmen.Person();

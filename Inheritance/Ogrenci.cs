@@ -11,7 +11,7 @@ namespace Inheritance
         public int OgrenciNumarasi { get; set; }
     
         //Ogrencinin bilgilerini gösterecek metot tanımlanıyor.
-    public void OgrenciGoster()
+    public override void Person()
         {
             Console.WriteLine($" Ogrencinin Adı: {Ad}" +
                               $"\n Ogrencinin Soyadı: {Soyad}" +
